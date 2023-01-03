@@ -1,0 +1,53 @@
+.banner {
+    width: 894px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+
+    h1 {
+        font-size: 52px;
+        margin-bottom: 16px;
+        margin-top: 0;
+
+        span {
+            color: #5658dd;
+        }
+
+    }
+
+    p {
+        font-weight: 400px;
+        color: #9ca9b3;
+        font-size: 1.3rem;
+        margin-bottom: 32px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            list-style: none;
+
+            
+            .view {
+                background: #25282c;
+            }
+
+            a {
+                text-decoration: none;
+                color: #eceded;
+                padding: 11px 31px;
+                margin: 8px;
+                font-weight: 700;
+                background: #6163ff;
+                border-radius: 3px;
+
+            }
+        }
+    }
+
+    img {
+        margin-top: 80px;
+    }
+}
